@@ -1,8 +1,11 @@
 import Form from './components/form/Form'
 import mapa from '../public/map.png'
 import styles from './App.module.css'
+import useWeather from './hooks/useWeather'
 
 function App() {
+
+  const { fetchWeather } = useWeather()
 
   return (
     <>
@@ -13,7 +16,9 @@ function App() {
             <img src={mapa} alt="" />
           </figure>
         </div>
-        <Form />
+        <Form 
+          fetchWeather={fetchWeather}
+        />
       </div>
     </>
   )
