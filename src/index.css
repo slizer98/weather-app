@@ -9,9 +9,8 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
-  background-image: url('/bg-weather.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(223,221,249);
+  background: linear-gradient(301deg, rgba(223,221,249,1) 0%, rgba(207,121,222,1) 35%, rgba(0,212,255,1) 100%);
   height: 100vh;
   display: flex;
   align-items: center;
