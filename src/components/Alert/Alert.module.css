@@ -1,0 +1,10 @@
+.alert {
+  border-left: 4px solid rgb(175, 34, 34);
+  font-size: small;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-left: 1rem;
+  color: rgb(196, 64, 88);
+  background-color: #ffffff3a;
+  padding: 1rem;
+}
